@@ -16,7 +16,7 @@ Execute the sqlite migrations
 
 Verify the tables in the sqlite3 database
   $ sqlite3 test.db ".tables"
-  pets               schema_migrations
+  bidule             pets               schema_migrations
 
 Check that we have everything in  the sqlite3 schema table
   $ omigrate ls -d "sqlite3:///$PWD/test.db" -s ./sqlite3 -vv
