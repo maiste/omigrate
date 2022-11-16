@@ -27,7 +27,7 @@
   (cmdliner
    (>= 1.1.0))
   logs
-  fmt
+  (fmt (>= 0.9.0))
   ; Postgres Driver
   pgx
   pgx_lwt_unix
